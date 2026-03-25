@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+
+    height: 900px;
+    background-image: url("./images/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+}
+
+.head ul {
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+    display: flex;
+    gap: 70px;
+    margin-left: 130px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.head img {
+    width: 120px;
+    margin-left: 68px;
+}
+
+.head li:first-child {
+    color: #E9BD8C;
+}
+
+.head-words {
+    margin-top: 159px;
+    margin-left: 63px;
+}
+
+.head-words h3 {
+    color: #E9BD8C;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.head-words h1 {
+    color: white;
+    font-size: 74px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head-btn {
+    display: flex;
+    margin-top: 101px;
+}
+
+.head-btn button {
+    color: white;
+    background-color: #933C24;
+    width: 194px;
+    height: 65px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.head-btn h3 {
+    color: #E9BD8C;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.products-word {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.q {
+    display: flex;
+}
+
+.w {
+    display: flex;
+}
+
+.product-card {
+    padding: 20px;
+    width: 300px;
+    background-image: url("./images/Rectangle\ 69.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-img {
+    margin-left: 32px;
+}
+
+.producct-price {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 24px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.product-name {
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.qproduct-img {
+    margin-left: 160px;
+}
+
+.product-btn {
+    margin-left: 110px;
+    color: white;
+    font-size: 20px;
+    background-color: #933C24;
+    padding: 10px 27px;
+}
+
+.eproduct-img {
+    margin-left: -40px;
+}
+
+.product-cards {
+    padding: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.percent-side h1 {
+    color: #933C24;
+    font-size: 48px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.percent-side button {
+    margin-top: 10px;
+    color: white;
+    background-color: #933C24;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.percents {
+    padding: 20px;
+    background-image: url("./images/Rectangle\ 45.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-side h1 {
+    font-size: 64px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.explore-side ul {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    gap: 40px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.explore-side li ins {
+    color: #933C24;
+}
+
+.cake-images {
+    margin-top: 50px;
+    gap: 55px;
+}
+
+.about-us {
+    color: white;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.about-us-words {
+    color: #B9B9B9;
+}
+
+.about-btn {
+    margin-top: 30px;
+    color: white;
+    background-color: #933C24;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-us-side {
+    margin-top: 10px;
+    background-image: url("./images/Rectangle\ 41.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+#about {
+    margin-top: 130px;
+}
+
+.featured-side {
+    font-size: 30px;
+     font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.treats-cards{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.treats-words{
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
